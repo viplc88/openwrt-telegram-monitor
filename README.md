@@ -53,14 +53,14 @@
 ### Cài đặt 1 lệnh
 
 ```bash
-wget -O - https://raw.githubusercontent.com/YOUR_USERNAME/openwrt-telegram-monitor/main/install.sh | sh
+wget -O - https://raw.githubusercontent.com/viplc88/openwrt-telegram-monitor/main/install.sh | sh
 ```
 
 Hoặc cách thủ công:
 
 ```bash
 # 1. Tải script
-wget https://raw.githubusercontent.com/YOUR_USERNAME/openwrt-telegram-monitor/main/install.sh
+wget https://raw.githubusercontent.com/viplc88/openwrt-telegram-monitor/main/install.sh
 
 # 2. Chạy
 sh install.sh
@@ -103,7 +103,7 @@ ssh root@192.168.1.1
 Chạy lệnh cài đặt:
 
 ```bash
-wget -O - https://raw.githubusercontent.com/YOUR_USERNAME/openwrt-telegram-monitor/main/install.sh | sh
+wget -O - https://raw.githubusercontent.com/viplc88/openwrt-telegram-monitor/main/install.sh | sh
 ```
 
 Nhập Bot Token và Chat ID khi được hỏi.
@@ -190,7 +190,7 @@ sh /tmp/fix-now.sh
 
 ```bash
 # Tải script mới
-wget https://raw.githubusercontent.com/YOUR_USERNAME/openwrt-telegram-monitor/main/install.sh
+wget https://raw.githubusercontent.com/viplc88/openwrt-telegram-monitor/main/install.sh
 
 # Chạy lại (giữ nguyên danh sách blocked)
 sh install.sh
